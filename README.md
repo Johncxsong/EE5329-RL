@@ -14,10 +14,10 @@
 1. open terminal run `conda create -n rlproj python=3.11 -y`
 2. run `conda activate rlproj`
 3. run `python -m pip install --upgrade pip`
-4. run `pip install reqirement.txt`
+4. run `pip install -r requirements.txt`
 
 ### 2. Run code
-1. `git clone ` or download as zip file
+1. `git clone https://github.com/Johncxsong/EE5329-RL.git` or download as zip file
 2. run `cd `
 3. run train part `python train.py --exp 1`
 4. run evaluation part `python evaluation.py --exp 1`
@@ -73,6 +73,8 @@ python evaluation.py --exp 1 2 3
 
 
 ### Experiment C 
+
+
 
 
 
