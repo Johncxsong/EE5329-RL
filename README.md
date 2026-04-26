@@ -9,22 +9,14 @@
 
 ## Quick Start  
 
-### 1. Environment setup
-
-1. open terminal run `conda create -n rlproj python=3.11 -y`
-2. run `conda activate rlproj`
-3. run `python -m pip install --upgrade pip`
-4. run `pip install --no-cache-dir -r requirements.txt`
-
-`chmod +x setup_rl.sh`  
-
-`./setup_rl.sh`
+1. `git clone https://github.com/Johncxsong/EE5329-RL.git` or download as zip file
+2. 
+3. run `chmod +x setup_rl.sh` and `./setup_rl.sh`
+4. run `conda activate John_RL`
 
 ### 2. Run code
-1. `git clone https://github.com/Johncxsong/EE5329-RL.git` or download as zip file
-2. run `cd `
-3. run train part `python train.py --exp 1`
-4. run evaluation part `python evaluation.py --exp 1`
+1. run train part `python train.py --exp 1`
+2. run evaluation part `python evaluation.py --exp 1`
 
 
 ### 3. Experiment explantion

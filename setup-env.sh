@@ -29,13 +29,13 @@ echo "🚀 Creating RL environment setup..."
 pip install --upgrade pip setuptools==81.0.0 wheel==0.46.3
 
 echo "🎮 Installing Gymnasium + MuJoCo..."
-pip install "gymnasium[mujoco]==1.2.3"
+pip install "gymnasium[mujoco]==1.2.3" --no-cache-dir
 
 echo "🧠 Installing Stable-Baselines3..."
-pip install "stable-baselines3[extra]==2.8.0"
+pip install "stable-baselines3[extra]==2.8.0" --no-cache-dir
 
 echo "📊 Installing utilities..."
-pip install imageio[ffmpeg] notebook
+pip install imageio[ffmpeg] notebook --no-cache-dir
 
 
 
