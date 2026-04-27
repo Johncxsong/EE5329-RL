@@ -17,13 +17,37 @@
 - Term: Spring 2026
 
 
-## Quick Start  
+## Quick Start 
+
+### 1.0 Windows setup
+1. run `git clone https://github.com/Johncxsong/EE5329-RL.git`
+ or download as zip file
+2. run `cd EE5329-RL`
+
+3. run 
+```bash
+conda create -n John_RL python=3.11 -y
+conda activate John_RL
+python -m pip install --upgrade pip
+pip install -r requirements.txt --no-cache-dir
+```
+
+
+
+
+
+
+---
+
+### 1.1 Ubuntu/ Linux setup 
 
 1. run `git clone https://github.com/Johncxsong/EE5329-RL.git`
  or download as zip file
 2. run `cd EE5329-RL`
 3. run `chmod +x setup_rl.sh` and `./setup_rl.sh`
 4. run `conda activate John_RL`
+
+---
 
 ### 2. Run code
 1. run train part `python train.py --exp 1`
