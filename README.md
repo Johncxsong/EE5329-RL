@@ -15,7 +15,7 @@
 - Name: John Song
 - Course: EE5329
 - Term: Spring 2026
-
+- (Report)[https://github.com/Johncxsong/EE5329-RL/blob/main/report_final.ipynb]
 
 ## Quick Start 
 
