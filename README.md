@@ -173,3 +173,4 @@ python evaluation.py --exp 1 2 3
 ## Problems 
 
 - use `--no-cache-dir` flag to install `pip install numpy --no-cache-dir`
+- if there is issue related installing stable-baselines3, please install `torch` individually then install `stable-baselines3`
